@@ -25,6 +25,14 @@
 <input type="text" name="${AttributeConst.REP_TITLE.getValue()}" id="${AttributeConst.REP_TITLE.getValue()}" value="${report.title}" />
 <br /><br />
 
+<label for="${AttributeConst.REP_TITLE.getValue()}">出勤</label><br />
+<input type="time" name="${AttributeConst.REP_IN.getValue()}" id="${AttributeConst.REP_IN.getValue()}" value="${report.intime}" type="time" />
+<br /><br />
+
+<label for="${AttributeConst.REP_TITLE.getValue()}">退勤</label><br />
+<input type="time" name="${AttributeConst.REP_OUT.getValue()}" id="${AttributeConst.REP_OUT.getValue()}" value="${report.outtime}" type="time" />
+<br /><br />
+
 <label for="${AttributeConst.REP_CONTENT.getValue()}">内容</label><br />
 <textarea  name="${AttributeConst.REP_CONTENT.getValue()}" id="${AttributeConst.REP_CONTENT.getValue()}" rows="10" cols="50">${report.content}</textarea>
 <br /><br />

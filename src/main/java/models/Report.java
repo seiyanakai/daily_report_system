@@ -75,6 +75,12 @@ public class Report {
     @Column(name = JpaConst.REP_COL_TITLE, length = 255, nullable = false)
     private String title;
 
+    @Column(name = JpaConst.REP_COL_IN, length = 255, nullable = false)
+    private String intime;
+
+    @Column(name = JpaConst.REP_COL_OUT, length = 255, nullable = false)
+    private String outtime;
+
     /**
      * 日報の内容
      */

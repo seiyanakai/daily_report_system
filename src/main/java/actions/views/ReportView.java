@@ -38,6 +38,12 @@ public class ReportView {
      */
     private String title;
 
+    private String intime;
+
+    private String outtime;
+
+
+
     /**
      * 日報の内容
      */
